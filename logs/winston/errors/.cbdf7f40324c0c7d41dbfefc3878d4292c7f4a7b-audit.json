@@ -9,6 +9,16 @@
             "date": 1689834996571,
             "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-20-07-12-error.log",
             "hash": "d0c8c88fca95c1f820c88429f5c7dc3bd0e84649229177756b1125310aa0db59"
+        },
+        {
+            "date": 1689860948923,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-20-07-19-error.log",
+            "hash": "e4729061b5ea43973c7890e80c8c870bfa3f8240446c056b8a7b86d867a63c56"
+        },
+        {
+            "date": 1689862144696,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-20-07-20-error.log",
+            "hash": "864735ff5af533fdc7a023b045467b8758e05023e365a4e7f2fb5564539f9d05"
         }
     ],
     "hashType": "sha256"

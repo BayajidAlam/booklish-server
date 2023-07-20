@@ -17,7 +17,6 @@ app.use(express.urlencoded({ extended: true }));
 // application routes
 app.use('/api/v1', router);
 
-
 // global error handler
 app.use(globalErrorHandler);
 
