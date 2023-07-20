@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\.cbdf7f40324c0c7d41dbfefc3878d4292c7f4a7b-audit.json",
+    "files": [
+        {
+            "date": 1689834996571,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-20-07-12-error.log",
+            "hash": "d0c8c88fca95c1f820c88429f5c7dc3bd0e84649229177756b1125310aa0db59"
+        }
+    ],
+    "hashType": "sha256"
+}
