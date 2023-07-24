@@ -1,0 +1,30 @@
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T15:01:01.477Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T15:01:01.482Z'
+}
+{
+  message: 'Failed to connect to Database: Error: querySrv ETIMEOUT _mongodb._tcp.myclaster-1.wxhqp81.mongodb.net',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T15:15:24.865Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T15:30:31.309Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T15:30:31.345Z'
+}

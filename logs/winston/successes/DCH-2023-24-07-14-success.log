@@ -94,3 +94,15 @@
   label: 'DCH',
   timestamp: '2023-07-24T08:06:06.657Z'
 }
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:46:53.390Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:46:53.396Z'
+}
