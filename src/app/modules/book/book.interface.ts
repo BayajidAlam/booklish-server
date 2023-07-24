@@ -1,10 +1,14 @@
 import { Model, Types } from 'mongoose';
 
 export type IBook = {
-  title: string;
+  tittle: string;
   author: string;
   genre: string;
-  publicationDate: Date;
+  publicationDate: string;
+  image: string;
+  price: number;
+  review?: string;
+  authorGmail: string;
 };
 
 export type BookModel = Model<IBook, Record<string, unknown>>;

@@ -1,0 +1,96 @@
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:00:33.799Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:00:33.806Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:02:44.217Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:02:44.226Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:02:50.386Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:02:50.394Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:02:58.071Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:02:58.077Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:03:33.936Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:03:33.950Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:03:40.860Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:03:40.868Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:03:54.223Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:03:54.230Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:06:06.645Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-24T08:06:06.657Z'
+}

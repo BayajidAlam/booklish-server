@@ -3,21 +3,37 @@ import { BookModel, IBook } from './book.interface';
 
 const BookSchema = new Schema<IBook>(
   {
-    title: {
-      type: 'string',
+    tittle: {
+      type: String,
       required: true,
     },
     author: {
-      type: 'string',
+      type: String,
       required: true,
     },
     genre: {
-      type: 'string',
+      type: String,
       required: true,
     },
     publicationDate: {
-      type: Date,
-      default: Date.now(),
+      type: String,
+      required: true,
+    },
+    image: {
+      type: String,
+      require: true,
+    },
+    price: {
+      type: Number,
+      require: true,
+    },
+    review: {
+      type: String,
+      require: true,
+    },
+    authorGmail: {
+      type: String,
+      require: true,
     },
   },
   {

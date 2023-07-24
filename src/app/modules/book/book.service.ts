@@ -82,6 +82,11 @@ const getAllBooks = async (
   };
 };
 
+const UpdatedBooks = async (): Promise<IBook[] | null> => {
+  const result = await Book.find().sort({ _id: -1 }).limit(10);
+  return result;
+};
+
 const getSingleBook = async (id: string): Promise<IBook | null> => {
   const result = await Book.findOne({ _id: id });
   return result;
@@ -123,7 +128,8 @@ const getSingleBook = async (id: string): Promise<IBook | null> => {
 export const BookService = {
   // createBook,
   getAllBooks,
-  // getSingleBook,
+  UpdatedBooks,
+  getSingleBook,
   // updateBook,
   // deleteBook,
 };
