@@ -10,19 +10,20 @@ import { IBook } from './book.interface';
 import { BookService } from './book.service';
 import { BookFilterableFields } from './book.constant';
 
-// const createBook: RequestHandler = catchAsync(
-//   async (req: Request, res: Response) => {
-//     const data = req.body;
-//     const result = await BookService.createBook(data);
+const createBook: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const data = req.body;
+    console.log(data,'create book');
+    const result = await BookService.createBook(data);
 
-//     sendResponse<IBook>(res, {
-//       statusCode: httpStatus.OK,
-//       success: true,
-//       message: `${data.role} created successfully`,
-//       data: result,
-//     });
-//   }
-// );
+    sendResponse<IBook>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: `Book created successfully`,
+      data: result,
+    });
+  }
+);
 
 const getAllBooks = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, BookFilterableFields);
@@ -52,7 +53,7 @@ const UpdatedBooks = catchAsync(async (req: Request, res: Response) => {
 });
 
 const getSingleBook = catchAsync(async (req: Request, res: Response) => {
-  const id = req.body.bookId
+  const id = req.params.id
   const result = await BookService.getSingleBook(id);
 
   sendResponse<IBook>(res, {
@@ -90,7 +91,7 @@ const getSingleBook = catchAsync(async (req: Request, res: Response) => {
 // });
 
 export const BookController = {
-  // createBook,
+  createBook,
   getAllBooks,
   UpdatedBooks,
   getSingleBook,

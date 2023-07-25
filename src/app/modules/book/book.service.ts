@@ -1,30 +1,21 @@
 import { SortOrder } from 'mongoose';
-import config from '../../../config';
 import { paginationHelpers } from '../../../helpers/paginationHelpers';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
-import ApiError from '../../../errors/ApiError';
-import httpStatus from 'http-status';
 import { IBook, IBookFilters } from './book.interface';
 import { BookSearchableFields } from './book.constant';
 import { Book } from './book.model';
 
-// const createBook = async (Book: IBook): Promise<IBook | null> => {
-//   // default password
-//   if (!Book.password) {
-//     Book.password = config.default_Book_pass as string;
-//   }
-//   if (Book.role === 'buyer' && Book.budget === 0) {
-//     throw new Error('budget must be greater than 0');
-//   }
+const createBook = async (book: IBook): Promise<IBook | null> => {
 
-//   const createdBook = await Book.create(Book);
 
-//   if (!createdBook) {
-//     throw new Error('Failed to create Book !');
-//   }
-//   return createdBook;
-// };
+  const createdBook = await Book.create(book);
+
+  if (!createdBook) {
+    throw new Error('Failed to create Book !');
+  }
+  return createdBook;
+};
 
 const getAllBooks = async (
   filters: IBookFilters,
@@ -126,7 +117,7 @@ const getSingleBook = async (id: string): Promise<IBook | null> => {
 // };
 
 export const BookService = {
-  // createBook,
+  createBook,
   getAllBooks,
   UpdatedBooks,
   getSingleBook,

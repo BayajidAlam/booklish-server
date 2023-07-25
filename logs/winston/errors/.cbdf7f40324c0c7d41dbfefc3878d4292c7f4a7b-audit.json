@@ -99,6 +99,41 @@
             "date": 1690222276123,
             "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-25-07-00-error.log",
             "hash": "aad29ce927930ca75a204038ca3b395ffac5c9dffb9df2814fa4ed66e14d59c9"
+        },
+        {
+            "date": 1690225799143,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-25-07-01-error.log",
+            "hash": "cdc054bcb42053afd2cdcc3864b6f8f1e8d429f50ec4c971e0fbd1fd9ac90a23"
+        },
+        {
+            "date": 1690261848525,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-25-07-11-error.log",
+            "hash": "e5e1b5b9233a53d50b03e848f699a7ebbbccda1eb4ecea61d0311cf8d8c65f18"
+        },
+        {
+            "date": 1690265500875,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-25-07-12-error.log",
+            "hash": "96bb775e0e2be726f1819bbd7f7bcd325e9dda0c0740aea34b60bd8e1558b5da"
+        },
+        {
+            "date": 1690282004992,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-25-07-16-error.log",
+            "hash": "bd4954d59ae59059b502bb01f8985fd97e38fe8f7fbf10d317bc738b04c71259"
+        },
+        {
+            "date": 1690282989387,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-25-07-17-error.log",
+            "hash": "31d45d63ae269477a126f575c71976d23d5685373afbd7d844b90dcf6d2d2edf"
+        },
+        {
+            "date": 1690291914361,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-25-07-19-error.log",
+            "hash": "f50a9040279952d43222bce4d0759b10f384d5200b3565f40690258c53ff27b3"
+        },
+        {
+            "date": 1690293634218,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\errors\\DCH-2023-25-07-20-error.log",
+            "hash": "132235ae1856ffa1ca723c681914132e5d4fa8e145def9131e1c5fa3a5a68af2"
         }
     ],
     "hashType": "sha256"

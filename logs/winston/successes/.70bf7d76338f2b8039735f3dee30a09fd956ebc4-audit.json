@@ -99,6 +99,41 @@
             "date": 1690222276120,
             "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-25-07-00-success.log",
             "hash": "a90afe6af201262c5731421deaa80270b3e6ab25568c8123a1be5d294d0496c5"
+        },
+        {
+            "date": 1690225799140,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-25-07-01-success.log",
+            "hash": "e694119c834e26155eabb7efa19cea7536b1dcae774a0498e36865d91d312299"
+        },
+        {
+            "date": 1690261848522,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-25-07-11-success.log",
+            "hash": "0be54e679d59c389df418fd8783e9f8c99d05b6f3ebd6dd09db21cc146cdeed3"
+        },
+        {
+            "date": 1690265500872,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-25-07-12-success.log",
+            "hash": "860cc1916124b2f6558dda70fdf12599a02502296cd4bca06add5fa6af1e2fcf"
+        },
+        {
+            "date": 1690282004990,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-25-07-16-success.log",
+            "hash": "1893a0355b4577d1ef9826f9b66744e67c36c7faca854ee89a3c1322bb953508"
+        },
+        {
+            "date": 1690282989384,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-25-07-17-success.log",
+            "hash": "2f42e514fbf7824eaa65ea72dc4b83be05851ffecf950c2697e6c37036e5bb94"
+        },
+        {
+            "date": 1690291914351,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-25-07-19-success.log",
+            "hash": "ab363ed4845c0e397525acfa2e0fde0437f4b238d3e263409ad57e647dec3d7d"
+        },
+        {
+            "date": 1690293634215,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-25-07-20-success.log",
+            "hash": "caaa1a84b4298502c0a4e0af8785120cfe61d620d13e986000aaa3c4758b9815"
         }
     ],
     "hashType": "sha256"

@@ -2,239 +2,311 @@
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:11:19.272Z'
+  timestamp: '2023-07-25T13:31:55.871Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:11:19.277Z'
+  timestamp: '2023-07-25T13:31:55.884Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:45:21.304Z'
+  timestamp: '2023-07-25T13:32:11.949Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:45:21.312Z'
+  timestamp: '2023-07-25T13:32:11.953Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:45:26.892Z'
+  timestamp: '2023-07-25T13:39:29.949Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:45:26.897Z'
+  timestamp: '2023-07-25T13:39:29.959Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:45:31.805Z'
+  timestamp: '2023-07-25T13:42:16.912Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:45:31.815Z'
+  timestamp: '2023-07-25T13:42:16.920Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:46:14.780Z'
+  timestamp: '2023-07-25T13:44:16.453Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:46:14.789Z'
+  timestamp: '2023-07-25T13:44:16.461Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:46:18.911Z'
+  timestamp: '2023-07-25T13:44:32.446Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:46:18.916Z'
+  timestamp: '2023-07-25T13:44:32.455Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:46:21.889Z'
+  timestamp: '2023-07-25T13:45:24.541Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:46:21.898Z'
+  timestamp: '2023-07-25T13:45:24.551Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:46:26.368Z'
+  timestamp: '2023-07-25T13:45:30.820Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:46:26.376Z'
+  timestamp: '2023-07-25T13:45:30.829Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:50:40.681Z'
+  timestamp: '2023-07-25T13:45:32.099Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:50:40.689Z'
+  timestamp: '2023-07-25T13:45:32.108Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:51:15.524Z'
+  timestamp: '2023-07-25T13:46:03.278Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:51:15.532Z'
+  timestamp: '2023-07-25T13:46:03.287Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:51:17.913Z'
+  timestamp: '2023-07-25T13:46:18.719Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:51:17.918Z'
+  timestamp: '2023-07-25T13:46:18.732Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:51:19.996Z'
+  timestamp: '2023-07-25T13:46:57.771Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:51:20.006Z'
+  timestamp: '2023-07-25T13:46:57.781Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:52:30.417Z'
+  timestamp: '2023-07-25T13:47:22.631Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:52:30.427Z'
+  timestamp: '2023-07-25T13:47:22.637Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:53:01.982Z'
+  timestamp: '2023-07-25T13:47:57.599Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:53:01.990Z'
+  timestamp: '2023-07-25T13:47:57.607Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:53:11.900Z'
+  timestamp: '2023-07-25T13:48:00.678Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:53:11.905Z'
+  timestamp: '2023-07-25T13:48:00.686Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:53:20.826Z'
+  timestamp: '2023-07-25T13:48:40.020Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:53:20.834Z'
+  timestamp: '2023-07-25T13:48:40.025Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:54:26.831Z'
+  timestamp: '2023-07-25T13:48:47.373Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:54:26.836Z'
+  timestamp: '2023-07-25T13:48:47.382Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:54:33.267Z'
+  timestamp: '2023-07-25T13:49:13.934Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:54:33.272Z'
+  timestamp: '2023-07-25T13:49:13.950Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:54:52.851Z'
+  timestamp: '2023-07-25T13:49:16.133Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:54:52.866Z'
+  timestamp: '2023-07-25T13:49:16.142Z'
 }
 {
   message: 'Database connected successfully',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:54:55.956Z'
+  timestamp: '2023-07-25T13:49:22.975Z'
 }
 {
   message: 'Application app listening on port~ 5000',
   level: 'info',
   label: 'DCH',
-  timestamp: '2023-07-24T18:54:55.965Z'
+  timestamp: '2023-07-25T13:49:22.981Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:49:33.733Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:49:33.738Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:51:10.977Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:51:10.985Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:51:13.764Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:51:13.773Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:51:19.480Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:51:19.486Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:51:26.611Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:51:26.626Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:51:30.856Z'
+}
+{
+  message: 'Application app listening on port~ 5000',
+  level: 'info',
+  label: 'DCH',
+  timestamp: '2023-07-25T13:51:30.865Z'
 }

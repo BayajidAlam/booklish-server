@@ -10,9 +10,9 @@ import { ReviewService } from './review.service';
 
 const createReview = catchAsync(async (req: Request, res: Response) => {
   
-  const { ...academicSemesterData } = req.body;
+  const { ...reviewData } = req.body;
   const result = await ReviewService.createReview(
-    academicSemesterData
+    reviewData
   );
 
   sendResponse<IReview>(res, {
