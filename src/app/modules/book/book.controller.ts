@@ -13,7 +13,6 @@ import { BookFilterableFields } from './book.constant';
 const createBook: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const data = req.body;
-    console.log(data,'create book');
     const result = await BookService.createBook(data);
 
     sendResponse<IBook>(res, {
@@ -66,7 +65,7 @@ const getSingleBook = catchAsync(async (req: Request, res: Response) => {
 
 const updateBook = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
-  const updatedData = req.body;
+  const updatedData = req.body.newData;
   
   const result = await BookService.updateBook(id, updatedData);
 

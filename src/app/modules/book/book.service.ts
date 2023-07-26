@@ -9,8 +9,6 @@ import ApiError from '../../../errors/ApiError';
 import httpStatus from 'http-status';
 
 const createBook = async (book: IBook): Promise<IBook | null> => {
-
-
   const createdBook = await Book.create(book);
 
   if (!createdBook) {
@@ -98,19 +96,9 @@ const updateBook = async (
   if (!isExist) {
     throw new ApiError(httpStatus.NOT_FOUND, 'Book not found !');
   }
-  
-  const { bookName, ...BookData } = payload;
+  console.log(id, payload);
 
-  const updatedBookData: Partial<IBook> = { ...BookData };
-  
-  if (bookName && Object.keys(bookName).length > 0) {
-    Object.keys(bookName).forEach(key => {
-      const nameKay = `bookName.${key}` as keyof Partial<IBook>;
-      (updatedBookData as any)[nameKay] = bookName[key as keyof typeof bookName];
-    });
-  }
-
-  const result = await Book.findOneAndUpdate({ _id: id }, updatedBookData, {
+  const result = await Book.findOneAndUpdate({ _id: id }, payload, {
     new: true,
   });
 
