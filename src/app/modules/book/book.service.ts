@@ -5,6 +5,8 @@ import { IPaginationOptions } from '../../../interfaces/pagination';
 import { IBook, IBookFilters } from './book.interface';
 import { BookSearchableFields } from './book.constant';
 import { Book } from './book.model';
+import ApiError from '../../../errors/ApiError';
+import httpStatus from 'http-status';
 
 const createBook = async (book: IBook): Promise<IBook | null> => {
 
@@ -83,44 +85,43 @@ const getSingleBook = async (id: string): Promise<IBook | null> => {
   return result;
 };
 
-// const deleteBook = async (id: string): Promise<IBook | null> => {
-//   const result = await Book.findOneAndDelete({ _id: id });
-//   return result;
-// };
+const deleteBook = async (id: string): Promise<IBook | null> => {
+  const result = await Book.findOneAndDelete({ _id: id });
+  return result;
+};
 
-// const updateBook = async (
-//   id: string,
-//   payload: Partial<IBook>
-// ): Promise<IBook | null> => {
-//   const isExist = await Book.findOne({ _id: id });
+const updateBook = async (
+  id: string,
+  payload: Partial<IBook>
+): Promise<IBook | null> => {
+  const isExist = await Book.findOne({ _id: id });
+  if (!isExist) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Book not found !');
+  }
+  
+  const { bookName, ...BookData } = payload;
 
-//   if (!isExist) {
-//     throw new ApiError(httpStatus.NOT_FOUND, 'Book not found !');
-//   }
+  const updatedBookData: Partial<IBook> = { ...BookData };
+  
+  if (bookName && Object.keys(bookName).length > 0) {
+    Object.keys(bookName).forEach(key => {
+      const nameKay = `bookName.${key}` as keyof Partial<IBook>;
+      (updatedBookData as any)[nameKay] = bookName[key as keyof typeof bookName];
+    });
+  }
 
-//   const { name, ...BookData } = payload;
+  const result = await Book.findOneAndUpdate({ _id: id }, updatedBookData, {
+    new: true,
+  });
 
-//   const updatedBookData: Partial<IBook> = { ...BookData };
-
-//   if (name && Object.keys(name).length > 0) {
-//     Object.keys(name).forEach(key => {
-//       const nameKay = `name.${key}` as keyof Partial<IBook>;
-//       (updatedBookData as any)[nameKay] = name[key as keyof typeof name];
-//     });
-//   }
-
-//   const result = await Book.findOneAndUpdate({ _id: id }, updatedBookData, {
-//     new: true,
-//   });
-
-//   return result;
-// };
+  return result;
+};
 
 export const BookService = {
   createBook,
   getAllBooks,
   UpdatedBooks,
   getSingleBook,
-  // updateBook,
-  // deleteBook,
+  updateBook,
+  deleteBook,
 };

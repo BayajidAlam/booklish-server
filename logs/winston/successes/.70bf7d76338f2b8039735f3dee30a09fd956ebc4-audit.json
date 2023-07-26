@@ -134,6 +134,21 @@
             "date": 1690293634215,
             "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-25-07-20-success.log",
             "hash": "caaa1a84b4298502c0a4e0af8785120cfe61d620d13e986000aaa3c4758b9815"
+        },
+        {
+            "date": 1690313084618,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-26-07-01-success.log",
+            "hash": "dcc59536e07d6b6960a2e418c19d3ca257daa6215a21269a9589873f873586a7"
+        },
+        {
+            "date": 1690345777690,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-26-07-10-success.log",
+            "hash": "0a04f99d34ce2c98b859965471573799cc4167df2fdf579d250aba7ce922c168"
+        },
+        {
+            "date": 1690349468272,
+            "name": "E:\\Next Level\\booklish-backend\\logs\\winston\\successes\\DCH-2023-26-07-11-success.log",
+            "hash": "092fe3bc23aeb72d32fff3073e50e90db6132c09d1e8888ddf4e6ab22114d55f"
         }
     ],
     "hashType": "sha256"
